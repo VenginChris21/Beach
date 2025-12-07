@@ -1,0 +1,137 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0D1B2A;
+    color: #E0FBFC;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+h1, h2 {
+    color: #41EAD4;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+h1 small {
+    color: #A2A2A2;
+}
+
+.dashboard-card {
+    background: rgba(45, 64, 89, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 15px;
+    border: 1px solid rgba(65, 234, 212, 0.2);
+    padding: 25px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease;
+}
+.dashboard-card:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 12px 40px rgba(65, 234, 212, 0.15);
+}
+
+.card-title {
+    color: #92B4F4;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-value {
+    color: #41EAD4;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 5px;
+    text-shadow: 0 0 5px rgba(65, 234, 212, 0.5);
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #284260;
+}
+
+.nav-tabs .nav-link {
+    color: #92B4F4;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    background-color: transparent;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #41EAD4;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0D1B2A;
+    background-color: #41EAD4;
+    border: 1px solid #41EAD4;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(65, 234, 212, 0.5);
+}
+
+.tab-content {
+    background-color: #1B2A41;
+    padding: 30px;
+    border-radius: 0 15px 15px 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.table {
+    --bs-table-bg: #1B2A41;
+    --bs-table-striped-bg: #284260;
+    --bs-table-hover-bg: #325070;
+    --bs-table-color: #E0FBFC;
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+}
+
+.table th {
+    background-color: #41EAD4;
+    color: #0D1B2A;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.table td {
+    border-top: 1px solid #284260;
+    vertical-align: middle;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #FF6B6B, #E63946);
+    border: none;
+    transition: all 0.3s;
+}
+.btn-danger:hover {
+    background: linear-gradient(135deg, #E63946, #FF6B6B);
+    transform: scale(1.05);
+}
+
+.alert-success {
+    background-color: #2ECC71 !important;
+    color: white !important;
+    border: none;
+}
+
+.alert-danger {
+    background-color: #E74C3C !important;
+    color: white !important;
+    border: none;
+}
+
+.delete-employee-btn {
+    box-shadow: 0 2px 5px rgba(230, 57, 70, 0.5);
+}
+
+.delete-employee-btn:hover {
+    box-shadow: 0 4px 10px rgba(230, 57, 70, 0.8);
+}
